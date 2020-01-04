@@ -1,0 +1,28 @@
+{
+  "name": "smart-brain-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "12.14.0" // intentionally so big version number
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "clarifai": "^2.9.1",
+    "core-util-is": "^1.0.2",
+    "cors": "^2.8.5",
+    "install": "^0.13.0",
+    "knex": "^0.20.6",
+    "pg": "^7.17.0",
+    "safer-buffer": "^2.1.2"
+  }
+}
